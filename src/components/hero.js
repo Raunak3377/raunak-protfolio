@@ -18,7 +18,7 @@ const Hero = () => {
           </p>
           <div className="hero-buttons">
             <a href="#contact" className="btn-hire">Hire me</a>
-            <a href="#" className="btn-cv">Download CV</a>
+            <a href="https://drive.google.com/file/d/1-_0000000000000000000000000000000000000000/view?usp=sharing" className="btn-cv">Download CV</a>
           </div>
         </div>
       </div>

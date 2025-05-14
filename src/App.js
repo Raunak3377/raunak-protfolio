@@ -1,7 +1,7 @@
 // src/App.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Link } from 'react-router-dom';
+
 import WhatsAppButton from './components/WhatsAppButton';
 
 
@@ -11,12 +11,20 @@ import Work from './pages/work';
 
 function App() {
   return (
-    <Router>
-      <WhatsAppButton />
-      {/* Define Routes */}
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/work" element={<Work />} />
+        <Route path="/" element={
+          <>
+            <Home />
+            <WhatsAppButton />
+          </>
+        } />
+        <Route path="/work" element={
+          <>
+            <Work />
+            <WhatsAppButton />
+          </>
+        } />
       </Routes>
     </Router>
   );

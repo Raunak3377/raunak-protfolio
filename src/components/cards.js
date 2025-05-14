@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import { Link } from 'react-router-dom';
 import './cards.css';
 
 const HoverCard = ({ title, description1, description2, description3, description4, imageUrl, buttonText }) => {
@@ -36,7 +37,14 @@ const HoverCard = ({ title, description1, description2, description3, descriptio
             <li>{description3}</li>
             <li>{description4}</li>
           </ul>
-          <button className="btn-primary">{buttonText}</button>
+          <Link 
+            to="/work" 
+            className="btn-primary"
+            aria-label={`View ${title} projects`}
+            title={`View ${title} projects`}
+          >
+            {buttonText}
+          </Link>
         </div>
       </div>
     </div>

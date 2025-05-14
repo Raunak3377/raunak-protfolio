@@ -11,7 +11,7 @@ const CardGrid = () => {
       description3: "WORDPRESS FOR POWERFULL CMS SITES",
       description4: "BY vibe coding and SEO FOR BETTER RANKINGS",
 
-      imageUrl: "/images/web.jpg",
+      imageUrl: process.env.PUBLIC_URL + "/images/web.jpg",
       buttonText: "View Projects"
     },
     {
@@ -20,7 +20,7 @@ const CardGrid = () => {
       description2: "CONTENT MARKETING,SOCIAL MEDIA MARKETING",
       description3: "ADVERTISING,BRANDING,MARKETING STRATEGY",
       description4: "AI AUTOMATION,MARKETING AUTOMATION",
-      imageUrl: "/images/digital.png",
+      imageUrl: process.env.PUBLIC_URL + "/images/digital.png",
       buttonText: "View Projects"
     },
     {
@@ -29,7 +29,7 @@ const CardGrid = () => {
       description2: "GOOGLE SHEET,EXCEL,POWER BI",
       description3: "REAL TIME DASHBOARDS,DATA VISUALIZATION",
       description4: "PYTHON PANDAS AND MATPLOTLIB",
-      imageUrl: "/images/data.jpeg",
+      imageUrl: process.env.PUBLIC_URL + "/images/data.jpeg",
       buttonText: "View Projects"
     }
   ];

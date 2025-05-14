@@ -1,4 +1,5 @@
 {
+  "homepage": "https://raunak3377.github.io/raunak-protfolio",
   "name": "protfolio",
   "version": "0.1.0",
   "private": true,
@@ -6,19 +7,21 @@
     "@emailjs/browser": "^4.4.1",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^16.3.0",
+    "@testing-library/react": "^14.1.2",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.6",
     "bootstrap-icons": "^1.13.1",
     "emailjs": "^4.0.3",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "react-router-dom": "^7.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

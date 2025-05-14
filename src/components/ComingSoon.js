@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './ComingSoon.css';
 
 const ComingSoon = () => {
@@ -21,7 +22,14 @@ const ComingSoon = () => {
             <i className="fas fa-paint-brush"></i>
             <span>NON VEG CENTRAL</span>
           </div>
-          <a href="/" className="btn btn-primary">Back to Home</a>
+          <Link 
+            to="/" 
+            className="btn btn-primary"
+            aria-label="Return to home page"
+            title="Go back to home"
+          >
+            Back to Home
+          </Link>
         </div>
       </div>
     </div>

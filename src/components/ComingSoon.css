@@ -1,0 +1,144 @@
+.coming-soon-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1c1c5a, #0b0c2a);
+  padding: 20px;
+}
+
+.coming-soon-content {
+  text-align: center;
+  color: white;
+  max-width: 800px;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  background: linear-gradient(45deg, #5b7fff, #a259ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: fadeInDown 1s ease;
+}
+
+.animated-bar {
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(90deg, #5b7fff, #a259ff);
+  margin: 20px auto;
+  border-radius: 2px;
+  animation: expandWidth 2s ease infinite;
+}
+
+.message {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 40px;
+  animation: fadeIn 1s ease 0.5s both;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  animation: fadeInUp 1s ease 1s both;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.feature i {
+  font-size: 2rem;
+  color: #5b7fff;
+  margin-bottom: 10px;
+}
+
+.feature span {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes expandWidth {
+  0% {
+    width: 100px;
+  }
+  50% {
+    width: 200px;
+  }
+  100% {
+    width: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .coming-soon-content {
+    padding: 30px 20px;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .features {
+    gap: 20px;
+  }
+
+  .feature {
+    padding: 15px;
+  }
+} 

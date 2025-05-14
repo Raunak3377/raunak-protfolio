@@ -1,0 +1,11 @@
+.work-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #1c1c5a, #0b0c2a);
+}
+
+/* Ensure ComingSoon component takes remaining space */
+.work-page > :last-child {
+  flex: 1;
+} 

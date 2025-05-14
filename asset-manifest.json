@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/raunak-protfolio/static/css/main.e260ee16.css",
+    "main.js": "/raunak-protfolio/static/js/main.4d2dade9.js",
+    "static/media/bootstrap-icons.woff?": "/raunak-protfolio/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/bootstrap-icons.woff2?": "/raunak-protfolio/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "index.html": "/raunak-protfolio/index.html",
+    "main.e260ee16.css.map": "/raunak-protfolio/static/css/main.e260ee16.css.map",
+    "main.4d2dade9.js.map": "/raunak-protfolio/static/js/main.4d2dade9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e260ee16.css",
+    "static/js/main.4d2dade9.js"
+  ]
+}

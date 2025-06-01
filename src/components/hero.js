@@ -17,8 +17,24 @@ const Hero = () => {
           "I combine the art of digital marketing with the power of data science to drive measurable growth, optimize campaigns, and uncover insights that turn clicks into customers."
           </p>
           <div className="hero-buttons">
-            <a href="#contact" className="btn-hire">Hire me</a>
-            <a href="https://drive.google.com/file/d/1-_0000000000000000000000000000000000000000/view?usp=sharing" className="btn-cv">Download CV</a>
+            <a 
+              href="#contact" 
+              className="btn-hire"
+              aria-label="Contact me for hiring"
+              title="Get in touch for work opportunities"
+            >
+              Hire me
+            </a>
+            <a 
+              href="https://drive.google.com/file/d/1sYXTMnBfUU_ZD7FvTZBVh8ls2RauWx5B/view?usp=sharing" 
+              className="btn-cv"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Download my CV"
+              title="View my detailed CV"
+            >
+              Download CV
+            </a>
           </div>
         </div>
       </div>

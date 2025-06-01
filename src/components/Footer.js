@@ -1,8 +1,21 @@
 import React from 'react';
 import './Footer.css'
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
+  const emailBody = encodeURIComponent(
+    "Hello Raunak,\n\n" +
+    "I came across your portfolio and I'm interested in discussing potential opportunities. " +
+    "I would like to hire you for:\n\n" +
+    "Project Details:\n" +
+    "- Project Type:\n" +
+    "- Timeline:\n" +
+    "- Budget:\n\n" +
+    "Looking forward to hearing from you.\n\n" +
+    "Best regards,"
+  );
+
   return (
     <footer className="footer">
       <div className="footer-content">
@@ -14,10 +27,10 @@ const Footer = () => {
         <div className="footer-section">
           <h3>Quick Links</h3>
           <ul>
-            <li><a href="/">Home</a></li>
-            <li> <a href="/work">Work</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><Link to="/" aria-label="Go to home page" title="Home" href="#top">Home</Link></li>
+            <li><Link to="/work" aria-label="Go to work page" title="Work" href="#top">Work</Link></li>
+            <li><a href="#about" aria-label="Go to about page" title="About">About</a></li>
+            <li><a href="#contact" aria-label="Go to contact page" title="Contact">Contact</a></li>
           </ul>
         </div>
 
@@ -25,15 +38,24 @@ const Footer = () => {
           <h3>Contact Info</h3>
           <ul className="contact-info">
             <li>
-              <i className="fas fa-envelope"></i>
-              <a href="mailto:raunak8820@gmail.com">vraunakraj456@gmail.com</a>
+              <i className="bi bi-envelope"></i>
+              <a 
+                href={`mailto:raunak8820@gmail.com?subject=Hiring Inquiry - Portfolio&body=${emailBody}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Send email to raunak8820@gmail.com"
+                title="Click to send me an email"
+                className="email-link"
+              >
+                raunak8820@gmail.com
+              </a>
             </li>
             <li>
-              <i className="fas fa-phone"></i>
+              <i className="bi bi-telephone"></i>
               <span>+91 7766828618</span>
             </li>
             <li>
-              <i className="fas fa-map-marker-alt"></i>
+              <i className="bi bi-map-marker-alt"></i>
               <span>RajendraNagar, Patna, Bihar, India</span>
             </li>
           </ul>

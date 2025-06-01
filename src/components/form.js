@@ -78,7 +78,7 @@ const Form = () => {
   return (
    <div className="container" id="contact">
    <div className="photo">
-    <img src="/images/fffff.jpeg" alt="raunak" />
+    <img src={process.env.PUBLIC_URL + '/images/fffff.jpeg'} alt="raunak" />
    </div>
    <div className="form-container">
       <form ref={form} onSubmit={handleSubmit} className="contact-form">

@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark custom-navbar" role="navigation" aria-label="Main navigation">
+    <nav id='top' className="navbar navbar-expand-lg navbar-dark custom-navbar" role="navigation" aria-label="Main navigation">
       <div className="nav-container">
         {/* Left side */}
         <ul className="navbar-nav me-auto mb-2 mb-lg-0 nav-links">

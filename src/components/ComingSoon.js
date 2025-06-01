@@ -6,22 +6,19 @@ const ComingSoon = () => {
   return (
     <div className="coming-soon-container">
       <div className="coming-soon-content">
-        <h1 className="title">Coming Soon</h1>
+        <h1 className="title">More Coming Soon</h1>
         <div className="animated-bar"></div>
         <p className="message">i am working on something amazing!</p>
         <div className="features">
           <div className="feature">
             <i className="fas fa-rocket"></i>
-            <span>FREELANCING</span>
+            <span id='freelancing' >FREELANCING</span>
           </div>
           <div className="feature">
-            <i className="fas fa-code"></i>
-            <span>S2 PARLOUR</span>
+            <i className="fas fa-code" id='graphicdesign'></i>
+            <span id='graphicdesign'>GRAPHIC DESIGN</span>
           </div>
-          <div className="feature">
-            <i className="fas fa-paint-brush"></i>
-            <span>NON VEG CENTRAL</span>
-          </div>
+          
           <Link 
             to="/" 
             className="btn btn-primary"
@@ -30,6 +27,9 @@ const ComingSoon = () => {
           >
             Back to Home
           </Link>
+        </div>
+        <div className="coming-soon-content">
+          <h1 className="title">Brave Carrier institute</h1>
         </div>
       </div>
     </div>

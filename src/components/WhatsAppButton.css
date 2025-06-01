@@ -24,6 +24,9 @@
 .whatsapp-button:hover {
   transform: scale(1.1);
   background-color: #128C7E;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  animation: pulse 2s infinite;
 }
 
 @keyframes pulse {

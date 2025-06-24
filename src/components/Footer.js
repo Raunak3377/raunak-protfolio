@@ -21,7 +21,7 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-section">
           <h3>Raunak Kumar</h3>
-          <p>i am student of BS IN CS and DA in IIT PATNA,also I am doing Bcom in Marketing from Magadh university</p>
+          <p>I am an aspiring Social Media Professional with a deep passion for digital communication, backed by strong technical acumen and a solid grasp of design psychology. I specialize in building engaging, data-driven campaigns that not only capture attention but also influence behavior-turning views into value.</p>
         </div>
 
         <div className="footer-section">

@@ -10,11 +10,11 @@ const Brave = () => {
         <div className="work-card">
           <div className="card-image">
             {/* Add your screenshot here */}
-            <img src="/path-to-your-screenshot1.jpg" alt="Social Media Campaign 1" />
+            <img src="./images/facebook.jpg" alt="Social Media Campaign 1" />
           </div>
           <div className="card-content">
             <h3>Campaign Management</h3>
-            <p>Led successful social media campaigns that increased engagement by X% and grew followers by Y%</p>
+            <p>Led successful social media campaigns that increased engagement by 32% and grew followers by 26%</p>
             <ul>
               <li>Created and scheduled daily content</li>
               <li>Managed community interactions</li>
@@ -40,21 +40,7 @@ const Brave = () => {
             </ul>
           </div>
         </div>
-        <div className="work-card">
-          <div className="card-image">
-            {/* Add your screenshot here */}
-            <img src="./images/pamph1.jpg" alt="Analytics and Reporting" />
-          </div>
-          <div className="card-content">
-            <h3>Pamphlet and graphics design</h3>
-            <p>created pamphlets and graphics for the institute</p>
-            <ul>
-              <li>made eye catching pamphlets</li>
-              <li>used phycology to create graphics</li>
-              <li>used photoshop and illustrator to create graphics</li>
-            </ul>
-          </div>
-        </div>
+        
       </div>
     </div>
   );

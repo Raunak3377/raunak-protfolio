@@ -16,7 +16,7 @@ const ComingSoon = () => {
           </div>
           <div className="feature">
             <i className="fas fa-code" id='graphicdesign'></i>
-            <span id='graphicdesign'>GRAPHIC DESIGN</span>
+            <span id='graphicdesign'>My GRAPHIC DESIGN</span>
           </div>
           
           <Link 

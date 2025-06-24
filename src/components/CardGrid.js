@@ -5,13 +5,13 @@ import './cards.css';
 const CardGrid = () => {
   const cards = [
     {
-      title: "Web Development skills",
-      description1: "HTML,CSS,JavaScript,BOOTSTRAP",
-      description2: "REACT FOR DYNAMIC FRONTEND(LEARNING)",
-      description3: "WORDPRESS FOR POWERFULL CMS SITES",
-      description4: "BY vibe coding and SEO FOR BETTER RANKINGS",
+      title: "Neuromarketing & Consumer psychology",
+      description1: "Emotional trigger Mapping",
+      description2: "Visual attention and optimization",
+      description3: "Behavioral segmentation",
+      description4: "A/B testing with Cognitive Insight",
 
-      imageUrl: process.env.PUBLIC_URL + "/images/web.jpg",
+      imageUrl: process.env.PUBLIC_URL + "/images/Deshpee-Brand-Blog-Img-12.webp",
       buttonText: "View Projects"
     },
     {

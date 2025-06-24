@@ -61,7 +61,7 @@
   align-items: center;
   gap: 10px;
   padding: 20px;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(232, 229, 229, 0.05);
   border-radius: 15px;
   transition: transform 0.3s ease;
 }
@@ -78,10 +78,16 @@
 }
 
 .feature span {
-  font-size: 1rem;
+  font-size: 0.5rem;
   color: rgba(255, 255, 255, 0.9);
+
 }
 
+.feature2 span {
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.9);
+  
+}
 @keyframes fadeInDown {
   from {
     opacity: 0;

@@ -23,7 +23,7 @@ const About = () => {
             <div className="about-card p-4">
               <h4 className="fw-bold mb-3">About me</h4>
               <p>
-              Hi! I'm Raunak, a passionate and curious learner with a deep interest in digital marketing ,web development. I love turning ideas into reality using technology and creativity. With a solid foundation, I enjoy building user-friendly, impactful solutions that solve real problems.
+              Hi! I'm Raunak, a passionate and curious learner with a deep interest in digital marketing and Neuromarketing. I love turning ideas into reality using technology and creativity. With a solid foundation, I enjoy building user-friendly, impactful solutions that solve real problems.
                 
               </p>
               <p>
